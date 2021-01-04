@@ -26,7 +26,6 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: var(--general-font-family);
-  letter-spacing: 0.03em;
 }
 
 .section {
@@ -129,10 +128,10 @@ img {
 
 .form__title {
   margin-bottom: 12px;
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
-  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .form__field {
@@ -143,8 +142,8 @@ img {
 .form__label {
   display: block;
   margin-bottom: 4px;
-  font-weight: 400;
   font-size: 12px;
+  font-weight: 400;
   line-height: 1.166;
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
@@ -163,8 +162,8 @@ img {
 }
 
 .form__textarea::placeholder {
-  font-weight: normal;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.142;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
@@ -207,9 +206,10 @@ img {
   display: flex;
   align-items: center;
   color: var(--secondary-text-color);
-  font-weight: normal;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.714;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 
@@ -232,10 +232,11 @@ img {
 }
 
 .form__policy-link {
-  color: var(--accent-color);
-  font-weight: normal;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 
 .button {
@@ -248,8 +249,8 @@ img {
   min-width: 200px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
   cursor: pointer;
@@ -275,8 +276,8 @@ img {
 .logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.192;
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -292,9 +293,10 @@ img {
 
 .title {
   margin-bottom: 50px;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.166;
+  font-weight: 700;
+  line-height: 1.666;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -368,8 +370,8 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.142;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -414,8 +416,8 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--secondary-text-color);
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.142;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -462,8 +464,8 @@ img {
 .hero__title {
   margin-bottom: 30px;
   color: var(--primary-white-color);
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.363;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -472,9 +474,10 @@ img {
 .advantages__list {
   display: flex;
   justify-content: space-between;
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.714;
+  letter-spacing: 0.03em;
 }
 
 .advantages__list-item {
@@ -496,9 +499,10 @@ img {
 
 .advantages__subtitle {
   margin-bottom: 10px;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.142;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -527,9 +531,10 @@ img {
   width: 100%;
   padding-top: 27px;
   padding-bottom: 27px;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.142;
+  letter-spacing: 0.03em;
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-white-color);
@@ -562,17 +567,19 @@ img {
 
 .team__name {
   margin-bottom: 10px;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.187;
+  letter-spacing: 0.03em;
 }
 
 .team__positiom {
-  color: var(--secondary-text-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.187;
   margin-bottom: 16px;
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
 }
 
 .clients__list {
@@ -624,9 +631,10 @@ img {
 
 .footer-slogan {
   margin-bottom: 20px;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.142;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
@@ -637,8 +645,8 @@ img {
 
 .footer-contact__link {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
   text-decoration: none;

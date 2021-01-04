@@ -18,9 +18,8 @@
 .footer-slogan {
   margin-bottom: 20px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.142;
+  @include font(14px, 700, 1.142, 0.03em);
+
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
@@ -31,10 +30,8 @@
 
 .footer-contact__link {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
+
+  @include font(14px, 400, 1.714, 0.03em);
   text-decoration: none;
   font-style: normal;
 

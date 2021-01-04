@@ -18,9 +18,8 @@
   padding-top: 27px;
   padding-bottom: 27px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.142;
+  @include font(14px, 700, 1.142, 0.03em);
+
   text-align: center;
   text-transform: uppercase;
 

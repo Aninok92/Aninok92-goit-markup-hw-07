@@ -2,9 +2,7 @@
   display: flex;
   justify-content: space-between;
 
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
+  @include font(14px, 400, 1.714, 0.03em);
 }
 
 .advantages__list-item {
@@ -29,9 +27,7 @@
 .advantages__subtitle {
   margin-bottom: 10px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.142;
+  @include font(14px, 700, 1.142, 0.03em);
   text-transform: uppercase;
 }
 

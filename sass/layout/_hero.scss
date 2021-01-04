@@ -29,9 +29,7 @@
   margin-bottom: 30px;
 
   color: var(--primary-white-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  letter-spacing: 0.06em;
+
+  @include font(44px, 900, 1.363, 0.06em);
   text-transform: uppercase;
 }
